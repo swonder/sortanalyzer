@@ -1,0 +1,105 @@
+body {
+
+  font-family: 'Lato', sans-serif;
+  background-color: #DEDEDE;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 710px;
+  margin: 0px auto;
+  text-align: center;text-align: center;
+  padding: 15px;
+}
+
+#descbox, #metricbox, #chartbox, #gridbox, #listbox, #codebox {
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #BCBCBC;
+  border-radius: 3px;
+  text-align: left;
+}
+
+#descheader {
+  font-weight: bold;
+}
+
+.algodropdowntitle {
+  float: left;
+  width: 200px;
+}
+
+#chart {
+  border: 1px solid #CCCCCC;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#chartheader {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+#chart {
+
+}
+
+#gridheader {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+#grid {
+  width: 670px;
+  height: 300px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+#listheader {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+#listformtitle {
+  float: left;
+  font-weight: normal;
+}
+
+#listbox {
+  overflow: auto;
+  font-size: 14px;
+}
+
+
+#snippet {
+  width: 670px;
+}
+
+#snippetheader {
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-weight: bold;
+}
+#snippeterror {
+  color: #BB0000;
+}
+
+
+#code {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  margin: 0;
+  overflow: auto;
+}
+
+#usercode {
+  width: 640px;
+  min-height: 300px;
+}

@@ -1,0 +1,21 @@
+function insertionSort(l, counts, liststate) {
+  var len = l.length;
+
+  for(var i = 0; i < len; i++) {
+    var tmp = l[i]; //Copy of the current element.
+    /*Check through the sorted part and compare with the
+    number in tmp. If large, shift the number*/
+    for(var j = i - 1; j >= 0 && (l[j] > tmp); j--) {
+      //Shift the number
+      l[j+1] = l[j];
+      counts[0]++;
+      if(l.length <= 64) {
+         liststate.push(l.slice());
+      }
+    }
+    //Insert the copied number at the correct position
+    //in sorted part.
+    l[j+1] = tmp;
+  }
+  return l;
+}

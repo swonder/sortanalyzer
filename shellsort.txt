@@ -1,0 +1,12 @@
+function shellSort (l) {
+    for (var h = l.length; h = parseInt(h / 2);) {
+        for (var i = h; i < l.length; i++) {
+            var k = l[i];
+            for (var j = i; j >= h && k < l[j - h]; j -= h)
+                l[j] = l[j - h];
+            l[j] = k;
+        }
+    }
+    return l;
+}
+ 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sorting Algorithms Analyzer v1.0</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link class="codestyle" rel="stylesheet" href="style/vs.css">
+    <link rel="stylesheet" type="text/css" href="js/slickgrid/css/smoothness/jquery-ui-1.8.16.custom.css" />
+    <link rel="stylesheet" type="text/css" href="js/slickgrid/css/slick-grid.css" />
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="descbox">
+        <div id="descheader">Sorting Algorithm Analyzer v1.0</div>
+        <div>
+          So what does this application do anyway?<br/>
+          <ul>
+            <li>Generates a set of random, unsorted lists with sizes ranging from 8 to 4096 elements</li>
+            <li>Runs the selected sort function on each of the above lists multiple times </li>
+            <li>Displays the data and performance results below</li>
+          </ul>
+        </div>
+      </div>
+      <div id="metricbox">
+        <div id="algoselbox">
+        </div>
+        <div id="algometricselbox">
+        </div>
+      </div>
+      <div id="chartbox">
+        <div id="chartheader"></div>
+        <div id="chart"></div>
+      </div>
+      <div id="gridbox">
+        <div id="gridheader">Results from Sort</div>
+        <div id="grid"></div>
+      </div>
+      <div id="listbox">
+        <div id="listheader"></div>
+        <div id="list"></div>
+      </div>
+      <div id="codebox">
+        <div id="snippet">
+          <div id="snippetheader">Sorting Function Code</div>
+          <div id="snippeterror"></div>
+          <div>
+            <pre><code id="code"></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery/jquery-1.12.1.min.js"></script>
+    <!--Needed for Slick Grid to run -->
+    <script type="text/javascript" src="js/jquery/jquery.event.drag-2.2.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/highlight/highlight.pack.js"></script>
+    <script type="text/javascript" src="js/slickgrid/slick.core.js"></script>
+    <script type="text/javascript" src="js/slickgrid/slick.grid.js"></script>
+
+    <script type="text/javascript" src="js/highlight/highlightinit.js"></script>
+    <script type="text/javascript" src="js/alg.js"></script>
+    <script type="text/javascript" src="js/algprint.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
